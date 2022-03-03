@@ -1,4 +1,7 @@
-export function App() {
+import { RepositoryList } from "./components/RespositoryList";
 
-  return <h1>Hello World Lucas Vinicius</h1>
+export function App() {
+  return (
+    <RepositoryList />
+  )
 }
